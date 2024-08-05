@@ -3,10 +3,16 @@ body {
 }
 
 #presentacion {
-    height: 90vh;
+    width: 300%;
+    height: 100vh;
     display: flex;
     justify-content: start;
     align-items: center;
+
+    background-image: url("assets/imagenfondo.gif");
+    background-size: 1300px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #creative{
@@ -22,3 +28,16 @@ body {
     padding: 10rem !important;
 }
 
+.rounded {
+    height: 50px;
+    width: 50px;
+}
+
+.titulos {
+    margin-top: 50px;
+}
+
+.borde {
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
