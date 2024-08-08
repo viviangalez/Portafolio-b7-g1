@@ -10,6 +10,6 @@ typewriter
   .typeString('CREATIVE DESIGNER')
   .pauseFor(300)
   .deleteAll()
-  .typeString('DESIGNER AND DEVELOPER WEB TRAINEE')
+  .typeString('DESIGNER AND DEVELOPER WEB')
   .pauseFor(1000)
   .start();
